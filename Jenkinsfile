@@ -2,9 +2,10 @@ pipeline {
     agent any
 
     stages {
+
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/yourusername/devops-cicd-project.git'
+                git 'https://github.com/JoyalBBiju/devops-cicd-project.git'
             }
         }
 
@@ -24,4 +25,3 @@ pipeline {
         }
     }
 }
-
